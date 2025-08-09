@@ -1,7 +1,6 @@
 # 博客來爬蟲 Notebooks（books.com.tw crawlers）
 
-這個專案整理了四支 Jupyter Notebook，分別用於從 **博客來（books.com.tw）** 抓取不同欄目的書籍清單。  
-> 僅供學術研究與技術交流，請務必遵守目標網站的 **服務條款** 與 **robots.txt**，避免高頻請求造成站方壓力。
+一組用 Python 撰寫的 博客來書籍爬蟲 Jupyter Notebooks，可自動抓取即將出版、預購、獨家、新書清單等書籍資訊，並輸出為結構化資料（如 CSV），方便後續分析與應用。僅供學術研究與技術交流，請務必遵守目標網站的服務條款與 robots.txt，並適當控制請求頻率。
 
 ## 📁 專案結構
 ```
@@ -58,5 +57,4 @@ pip install -r requirements.txt
 ---
 
 ## English (brief)
-This repository contains four Jupyter notebooks for scraping different book lists from **books.com.tw** (Upcoming, Pre-order, Exclusive, and New Releases).  
-**For research/educational purposes only.** Please respect the website's Terms of Service and robots.txt, and rate-limit your requests.
+A set of Python Jupyter Notebooks for scraping book data from books.com.tw, covering Upcoming, Pre-order, Exclusive, and New Releases categories. The scripts output structured data (e.g., CSV) for easy analysis. For research and educational purposes only – please respect the site's Terms of Service, robots.txt, and apply proper rate limiting.
